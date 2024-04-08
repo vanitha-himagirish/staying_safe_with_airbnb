@@ -15,3 +15,21 @@ By orchestrating data flow, transformation, storage, modeling, and visualization
 
 # Architecture
 ![alt text](image-1.png)
+
+The following steps were used to build the end-to-end pipeline:
+# 1.	Step 1: Creating a Resource Group 
+- Created Resource Group name - airbnb-safety-reporting-adf
+![image](https://github.com/vanitha-himagirish/staying_safe_with_airbnb/assets/55011879/2f4fcc0d-992e-4212-9bd4-adeec2473214)
+
+#Step 2: Creating Azure Storage account.
+- Created Storage account name -airbnbsafetysa
+
+#Step 3: Download Azure storage explorer.
+
+#Step 4: Creating Azure Lake storage Gen2
+- Used as Datalake for data analysis
+- Airbnb data - airbnbsafetydl
+- Enable hirerarchial namespace in Advanced tab
+
+
+
