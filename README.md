@@ -12,3 +12,6 @@ Azure Synapse serves as our data modeling and analytics platform. We employ it t
 # 5.	Data Visualization (Power BI):
 Power BI is the tool of choice for data visualization. We create interactive dashboards and reports to present the Airbnb and shooting incidents data insights, enabling stakeholders to make informed decisions.
 By orchestrating data flow, transformation, storage, modeling, and visualization using Azure services, we aim to provide actionable insights from this critical dataset.
+
+# Architecture
+![alt text](image-1.png)
