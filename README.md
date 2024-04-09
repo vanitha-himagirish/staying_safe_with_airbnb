@@ -53,6 +53,7 @@ The above pipeline copy activity consists of following steps:
 5. Pipeline-pl_ingest_listings_data
 6. Copyactivity - Copy Airbnb listings data
 
+![image](https://github.com/vanitha-himagirish/staying_safe_with_airbnb/assets/55011879/b7e9d41f-d76d-41ed-aeb2-2f670df14620)
 
 
 
