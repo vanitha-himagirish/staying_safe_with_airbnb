@@ -31,16 +31,28 @@ The following steps were used to build the end-to-end pipeline:
 - Airbnb data - airbnbsafetydl
 - Enable hirerarchial namespace in Advanced tab
 ![image](https://github.com/vanitha-himagirish/staying_safe_with_airbnb/assets/55011879/42563eb1-f007-4d3c-97aa-8ba74afc4cf6)
-![image](https://github.com/vanitha-himagirish/staying_safe_with_airbnb/assets/55011879/e7e24721-ae9c-4f39-8e7a-b60e3399f22a
+![image](https://github.com/vanitha-himagirish/staying_safe_with_airbnb/assets/55011879/e7e24721-ae9c-4f39-8e7a-b60e3399f22a)
 
 ### Azure Data Factory:
 ## Step 6: Data Ingestion pipeline – pl_ingest_listings_data – Ingestion of Airbnb data from Azure blob storage to Data Lake
--	### Copy activity-Azure blob storage to Data Lake
-  -	Source
+### Copy activity-Azure blob storage to Data Lake
+  ### Source
   -	Storage account - airbnbsafetysa
   -	Container-airbnblisting
   -	File-listings.csv.gz
-  
+  ### Sink
+  - Storage account-airbnbsafetydl
+  - Container-raw
+  - File: airbnb/listings.csv
+    
+The above pipeline copy activity consists of following steps:
+1. Lined service - source - ls_ablob_airbnbsafetysa
+2. Source dataset -ds_listings_raw_gz
+3. Linked service -sink - ls_adls_airbnbsafetydl
+4. Sink dataset - ds_listings_raw_csv
+5. Pipeline-pl_ingest_listings_data
+6. Copyactivity - Copy Airbnb listings data
+
 
 
 
