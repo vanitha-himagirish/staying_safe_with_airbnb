@@ -15,7 +15,8 @@ Power BI is the tool of choice for data visualization. We create interactive das
 By orchestrating data flow, transformation, storage, modeling, and visualization using Azure services, we aim to provide actionable insights from this critical dataset.
 
 # Architecture
-![alt text](image-1.png)
+![image](https://github.com/vanitha-himagirish/staying_safe_with_airbnb/assets/55011879/43574cb3-1ec3-4688-9b23-e6eea65d8957)
+
 
 The following steps were used to build the end-to-end pipeline:
 ## Step 1: Creating a Resource Group 
